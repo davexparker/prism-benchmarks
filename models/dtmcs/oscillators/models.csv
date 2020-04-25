@@ -1,0 +1,2 @@
+model_file,model_consts,model_type,states,time_constr
+"oscillators.8-10-0.1-1.prism","mu=0.1,lambda=1",DTMC,24311,69.438

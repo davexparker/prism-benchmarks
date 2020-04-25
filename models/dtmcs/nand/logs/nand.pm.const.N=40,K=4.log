@@ -1,13 +1,13 @@
 PRISM
 =====
 
-Version: 4.5.dev
-Date: Wed Mar 25 16:22:47 UTC 2020
-Hostname: ip-172-31-3-244
+Version: 4.6.dev
+Date: Thu Apr 23 12:29:59 BST 2020
+Hostname: kazak
 Memory limits: cudd=1g, java(heap)=1g
-Command line: prism ./dtmcs/nand/nand.pm -const 'N=40,K=4' -mainlog './dtmcs/nand/logs/nand.pm.const.N=40,K=4.log'
+Command line: prism dtmcs/nand/nand.pm -const 'N=40,K=4' -mainlog 'dtmcs/nand/logs/nand.pm.const.N=40,K=4.log'
 
-Parsing model file "./dtmcs/nand/nand.pm"...
+Parsing model file "dtmcs/nand/nand.pm"...
 
 Type:        DTMC
 Modules:     multiplex 
@@ -20,9 +20,9 @@ Model constants: N=40,K=4
 
 Computing reachable states...
 
-Reachability (BFS): 1442 iterations in 4.71 seconds (average 0.003269, setup 0.00)
+Reachability (BFS): 1442 iterations in 3.38 seconds (average 0.002344, setup 0.00)
 
-Time for model construction: 4.894 seconds.
+Time for model construction: 3.638 seconds.
 
 Type:        DTMC
 States:      3999522 (1 initial)

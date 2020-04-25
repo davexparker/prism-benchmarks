@@ -1,2 +1,3 @@
 // Minimum expected cost for both stations to send correctly
+// RESULT: 79630/21 (approx. 3791.904761904762)
 "cost_min": R{"cost"}min=? [ F s1=12 & s2=12 ];

@@ -2,7 +2,7 @@ PRISM
 =====
 
 Version: 4.6.dev
-Date: Sat Apr 25 23:19:41 BST 2020
+Date: Sat Apr 25 23:32:57 BST 2020
 Hostname: kazak
 Memory limits: cudd=1g, java(heap)=1g
 Command line: prism ptas/zeroconf/zeroconf.nm -pf true -mainlog ptas/zeroconf/logs/zeroconf.nm.pf.true.log

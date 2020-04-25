@@ -1,0 +1,2 @@
+pacman.nm -const MAXSTEPS=60
+pacman.nm -const MAXSTEPS=100

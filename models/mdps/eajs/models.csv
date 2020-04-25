@@ -1,0 +1,3 @@
+model_file,model_consts,model_type,states,time_constr
+"eajs.5.prism","B=11,energy_capacity=250",MDP,3049471,0.639
+"eajs.6.prism","B=13,energy_capacity=300",MDP,7901694,1.078

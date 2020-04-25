@@ -1,0 +1,33 @@
+PRISM
+=====
+
+Version: 4.6.dev
+Date: Fri Apr 24 16:41:02 BST 2020
+Hostname: kazak
+Memory limits: cudd=1g, java(heap)=1g
+Command line: prism mdps/resource-gathering/resource-gathering.pm -const 'B=1300,GOLD_TO_COLLECT=100,GEM_TO_COLLECT=100' -mainlog 'mdps/resource-gathering/logs/resourcegathering.pm.const.B=1300,GOLD_TO_COLLECT=100,GEM_TO_COLLECT=100.log'
+
+Parsing model file "mdps/resource-gathering/resource-gathering.pm"...
+
+Type:        MDP
+Modules:     robot goldcounter gemcounter 
+Variables:   gold gem attacked x y required_gold required_gem 
+
+---------------------------------------------------------------------
+
+Building model...
+Model constants: GOLD_TO_COLLECT=100,GEM_TO_COLLECT=100,B=1300
+
+Computing reachable states...
+
+Reachability (BFS): 1215 iterations in 0.54 seconds (average 0.000444, setup 0.00)
+
+Time for model construction: 0.582 seconds.
+
+Type:        MDP
+States:      958894 (1 initial)
+Transitions: 3325526
+Choices:     3080702
+
+Transition matrix: 898 nodes (4 terminal), 3325526 minterms, vars: 23r/23c/4nd
+

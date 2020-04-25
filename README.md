@@ -1,5 +1,9 @@
 # The PRISM Benchmark Suite
 
+_[This is a revised copy of the benchmark suite containing just the models
+from the QComp 2020 competition http://qcomp.org/competition/2020/,
+including some extra models from http://qcomp.org/benchmarks/index.html]_
+
 The PRISM benchmark suite is a collection of PRISM models and associated properties,
 that can be used for benchmarking or testing of a new probabilistic model checking implementation or technique. See here for details:
 

@@ -1,0 +1,19 @@
+FAKE LOG!
+
+Parsing model file "mdps/pacman/pacman.nm"...
+
+Type:        MDP
+Modules:     arbiter ghost0 ghost1 pacman 
+Variables:   pMove steps xG0 yG0 dG0 xG1 yG1 dG1 xP yP dP 
+
+Model constants: MAXSTEPS=100
+
+Time for model construction: 1733.719 seconds.
+
+Type:        MDP
+States:      79440921 (1 initial)
+Transitions: 109963876
+Choices:     100215175
+
+Transition matrix: 3640220 nodes (44 terminal), 109963876 minterms, vars: 36r/36c/9nd
+

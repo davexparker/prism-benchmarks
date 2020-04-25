@@ -1,2 +1,3 @@
 // Minimum probability of configuring correctly
+// RESULT (N=1000,K=8): 322687697779/64024000322687697779 (approx. 5.040105212929839e-09)
 "correct_min": Pmin=? [ F (l=4 & ip=1) ];

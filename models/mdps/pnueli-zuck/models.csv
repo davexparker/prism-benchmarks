@@ -1,0 +1,3 @@
+model_file,model_consts,model_type,states,time_constr
+"pnueli-zuck.10.prism","",MDP,69994757110,1.252
+"pnueli-zuck.5.prism","",MDP,397435,0.149

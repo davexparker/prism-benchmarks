@@ -1,13 +1,13 @@
 PRISM
 =====
 
-Version: 4.5.dev
-Date: Wed Mar 25 16:16:26 UTC 2020
-Hostname: ip-172-31-3-244
+Version: 4.6.dev
+Date: Fri Apr 24 15:13:29 BST 2020
+Hostname: kazak
 Memory limits: cudd=1g, java(heap)=1g
-Command line: prism ./ctmcs/fms/fms.sm -const n=8 -mainlog ./ctmcs/fms/logs/fms.sm.const.n=8.log
+Command line: prism ctmcs/fms/fms.sm -const n=8 -mainlog ctmcs/fms/logs/fms.sm.const.n=8.log
 
-Parsing model file "./ctmcs/fms/fms.sm"...
+Parsing model file "ctmcs/fms/fms.sm"...
 
 Type:        CTMC
 Modules:     machine1 machine2 machine3 machine12 
@@ -20,9 +20,9 @@ Model constants: n=8
 
 Computing reachable states...
 
-Reachability (BFS): 65 iterations in 6.90 seconds (average 0.106215, setup 0.00)
+Reachability (BFS): 65 iterations in 4.88 seconds (average 0.075077, setup 0.00)
 
-Time for model construction: 7.406 seconds.
+Time for model construction: 5.244 seconds.
 
 Type:        CTMC
 States:      4459455 (1 initial)

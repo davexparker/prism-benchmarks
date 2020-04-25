@@ -1,0 +1,31 @@
+PRISM
+=====
+
+Version: 4.6.dev
+Date: Fri Apr 24 15:12:32 BST 2020
+Hostname: kazak
+Memory limits: cudd=1g, java(heap)=1g
+Command line: prism ctmcs/majority/majority.prism -mainlog ctmcs/majority/logs/majority.prism.log
+
+Parsing model file "ctmcs/majority/majority.prism"...
+
+Type:        CTMC
+Modules:     D_def Y_def Z_def CC_def XX_def EE_def 
+Variables:   D Y Z CC XX EE 
+
+---------------------------------------------------------------------
+
+Building model...
+
+Computing reachable states...
+
+Reachability (BFS): 44 iterations in 0.03 seconds (average 0.000682, setup 0.00)
+
+Time for model construction: 54.634 seconds.
+
+Type:        CTMC
+States:      192000 (1 initial)
+Transitions: 1961600
+
+Rate matrix: 9569 nodes (85 terminal), 1961600 minterms, vars: 43r/43c
+

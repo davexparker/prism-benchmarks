@@ -1,0 +1,33 @@
+PRISM
+=====
+
+Version: 4.6.dev
+Date: Fri Apr 24 16:38:26 BST 2020
+Hostname: kazak
+Memory limits: cudd=1g, java(heap)=1g
+Command line: prism mdps/consensus/coin6.nm -const K=2 -mainlog mdps/consensus/logs/coin6.nm.const.K=2.log
+
+Parsing model file "mdps/consensus/coin6.nm"...
+
+Type:        MDP
+Modules:     process1 process2 process3 process4 process5 process6 
+Variables:   counter pc1 coin1 pc2 coin2 pc3 coin3 pc4 coin4 pc5 coin5 pc6 coin6 
+
+---------------------------------------------------------------------
+
+Building model...
+Model constants: K=2
+
+Computing reachable states...
+
+Reachability (BFS): 149 iterations in 0.07 seconds (average 0.000470, setup 0.00)
+
+Time for model construction: 0.113 seconds.
+
+Type:        MDP
+States:      1258240 (1 initial)
+Transitions: 6236736
+Choices:     5008128
+
+Transition matrix: 7075 nodes (3 terminal), 6236736 minterms, vars: 24r/24c/6nd
+

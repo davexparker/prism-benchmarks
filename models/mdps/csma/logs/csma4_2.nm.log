@@ -1,13 +1,13 @@
 PRISM
 =====
 
-Version: 4.5.dev
-Date: Wed Mar 25 15:32:33 UTC 2020
-Hostname: ip-172-31-3-244
+Version: 4.6.dev
+Date: Fri Apr 24 16:39:48 BST 2020
+Hostname: kazak
 Memory limits: cudd=1g, java(heap)=1g
-Command line: prism ./mdps/csma/csma4_2.nm -mainlog ./mdps/csma/logs/csma4_2.nm.log
+Command line: prism mdps/csma/csma4_2.nm -mainlog mdps/csma/logs/csma4_2.nm.log
 
-Parsing model file "./mdps/csma/csma4_2.nm"...
+Parsing model file "mdps/csma/csma4_2.nm"...
 
 Type:        MDP
 Modules:     bus station1 station2 station3 station4 
@@ -19,9 +19,9 @@ Building model...
 
 Computing reachable states...
 
-Reachability (BFS): 193 iterations in 2.23 seconds (average 0.011570, setup 0.00)
+Reachability (BFS): 193 iterations in 1.68 seconds (average 0.008705, setup 0.00)
 
-Time for model construction: 2.407 seconds.
+Time for model construction: 1.845 seconds.
 
 Type:        MDP
 States:      761962 (1 initial)

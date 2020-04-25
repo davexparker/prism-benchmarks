@@ -1,0 +1,2 @@
+model_file,model_consts,model_type,states,time_constr
+"haddad-monmege.pm","N=100,p=0.7",DTMC,201,0.035

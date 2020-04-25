@@ -1,0 +1,4 @@
+// Minimal expected number of steps to collect at least GOLD_TO_COLLECT gold and at least GEM_TO_COLLECT gem
+// Approx result (B=1300,GOLD_TO_COLLECT=100,GEM_TO_COLLECT=100): 1292.5925925925926
+// RESULT (B=1300,GOLD_TO_COLLECT=100,GEM_TO_COLLECT=100): 34900/27
+"expsteps": R{"time"}min=? [F "success"];

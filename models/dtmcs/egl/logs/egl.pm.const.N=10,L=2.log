@@ -1,13 +1,13 @@
 PRISM
 =====
 
-Version: 4.5.dev
-Date: Wed Mar 25 16:21:04 UTC 2020
-Hostname: ip-172-31-3-244
+Version: 4.6.dev
+Date: Thu Apr 23 12:29:39 BST 2020
+Hostname: kazak
 Memory limits: cudd=1g, java(heap)=1g
-Command line: prism ./dtmcs/egl/egl.pm -const 'N=10,L=2' -mainlog './dtmcs/egl/logs/egl.pm.const.N=10,L=2.log'
+Command line: prism dtmcs/egl/egl.pm -const 'N=10,L=2' -mainlog 'dtmcs/egl/logs/egl.pm.const.N=10,L=2.log'
 
-Parsing model file "./dtmcs/egl/egl.pm"...
+Parsing model file "dtmcs/egl/egl.pm"...
 
 Type:        DTMC
 Modules:     counter partyA partyB 
@@ -140,9 +140,9 @@ Warning: Guard for command 60 of module "partyB" is never satisfied.
 
 Computing reachable states...
 
-Reachability (BFS): 101 iterations in 0.17 seconds (average 0.001703, setup 0.00)
+Reachability (BFS): 101 iterations in 0.12 seconds (average 0.001188, setup 0.00)
 
-Time for model construction: 0.607 seconds.
+Time for model construction: 0.505 seconds.
 
 Type:        DTMC
 States:      66060286 (1 initial)

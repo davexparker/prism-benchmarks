@@ -1,2 +1,3 @@
 // Maximum probability of configuring correctly
+// RESULT (N=1000,K=8): 3074024910421/64024003074024910421 (approx. 4.801363180722697e-08)
 "correct_max": Pmax=? [ F (l=4 & ip=1) ];

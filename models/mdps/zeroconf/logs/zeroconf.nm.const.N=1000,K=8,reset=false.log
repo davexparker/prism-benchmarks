@@ -1,13 +1,13 @@
 PRISM
 =====
 
-Version: 4.5.dev
-Date: Wed Mar 25 16:11:20 UTC 2020
-Hostname: ip-172-31-3-244
+Version: 4.6.dev
+Date: Fri Apr 24 16:39:51 BST 2020
+Hostname: kazak
 Memory limits: cudd=1g, java(heap)=1g
-Command line: prism ./mdps/zeroconf/zeroconf.nm -const 'N=1000,K=8,reset=false' -mainlog './mdps/zeroconf/logs/zeroconf.nm.const.N=1000,K=8,reset=false.log'
+Command line: prism mdps/zeroconf/zeroconf.nm -const 'N=1000,K=8,reset=false' -mainlog 'mdps/zeroconf/logs/zeroconf.nm.const.N=1000,K=8,reset=false.log'
 
-Parsing model file "./mdps/zeroconf/zeroconf.nm"...
+Parsing model file "mdps/zeroconf/zeroconf.nm"...
 
 Type:        MDP
 Modules:     environment host0 
@@ -20,9 +20,9 @@ Model constants: reset=false,N=1000,K=8
 
 Computing reachable states...
 
-Reachability (BFS): 592 iterations in 72.32 seconds (average 0.122155, setup 0.00)
+Reachability (BFS): 592 iterations in 64.73 seconds (average 0.109341, setup 0.00)
 
-Time for model construction: 73.111 seconds.
+Time for model construction: 68.508 seconds.
 
 Type:        MDP
 States:      1870338 (1 initial)

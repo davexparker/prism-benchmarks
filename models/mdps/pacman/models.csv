@@ -1,0 +1,3 @@
+model_file,model_consts,model_type,states,time_constr
+"pacman.nm","MAXSTEPS=100",MDP,79440921,1733.719
+"pacman.nm","MAXSTEPS=60",MDP,38786521,1679.568

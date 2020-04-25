@@ -1,0 +1,33 @@
+PRISM
+=====
+
+Version: 4.6.dev
+Date: Fri Apr 24 16:38:28 BST 2020
+Hostname: kazak
+Memory limits: cudd=1g, java(heap)=1g
+Command line: prism mdps/eajs/eajs.6.prism -const energy_capacity=300 -const B=13 -mainlog mdps/eajs/logs/eajs.6.prism.const.energy_capacity=300.const.B=13.log
+
+Parsing model file "mdps/eajs/eajs.6.prism"...
+
+Type:        MDP
+Modules:     Battery Process_1 Process_2 Resources Process_3 Process_4 Process_6 Process_5 
+Variables:   battery_load failure_1 loc_1 t_1 t_2 loc_2 boost_1 user_1 t_3 loc_3 t_4 loc_4 loc_6 t_6 t_5 loc_5 
+
+---------------------------------------------------------------------
+
+Building model...
+Model constants: B=13,energy_capacity=300
+
+Computing reachable states...
+
+Reachability (BFS): 89 iterations in 0.22 seconds (average 0.002472, setup 0.00)
+
+Time for model construction: 1.078 seconds.
+
+Type:        MDP
+States:      7901694 (1 initial)
+Transitions: 19722777
+Choices:     11897412
+
+Transition matrix: 38911 nodes (7 terminal), 19722777 minterms, vars: 50r/50c/5nd
+

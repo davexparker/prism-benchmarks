@@ -1,0 +1,2 @@
+model_file,model_consts,model_type,states,time_constr
+"resource-gathering.pm","GOLD_TO_COLLECT=100,GEM_TO_COLLECT=100,B=1300",MDP,958894,0.582

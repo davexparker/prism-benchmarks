@@ -1,2 +1,3 @@
 // With probability 1, eventually both stations have sent their packet correctly
+// RESULT: true
 "sent": P>=1 [ F s1=12 & s2=12 ];

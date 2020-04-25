@@ -1,0 +1,1 @@
+resource-gathering.pm -const B=1300,GOLD_TO_COLLECT=100,GEM_TO_COLLECT=100

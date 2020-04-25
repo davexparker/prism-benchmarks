@@ -1,0 +1,5 @@
+const int T;
+
+// Probability that the toggle switch changes state erroneously within T time units.
+// RESULT (T=2100): [0.05429919306,0.05429919326]
+"change_state" : P=? [ F<=T ((EE > 40) & (CC < 20))]

@@ -1,0 +1,2 @@
+model_file,model_consts,model_type,states,time_constr
+"cluster.sm","N=64",CTMC,151060,0.068

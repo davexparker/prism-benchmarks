@@ -1,13 +1,13 @@
 PRISM
 =====
 
-Version: 4.5.dev
-Date: Wed Mar 25 16:20:32 UTC 2020
-Hostname: ip-172-31-3-244
+Version: 4.6.dev
+Date: Thu Apr 23 12:29:44 BST 2020
+Hostname: kazak
 Memory limits: cudd=1g, java(heap)=1g
-Command line: prism ./dtmcs/herman/herman15.pm -mainlog ./dtmcs/herman/logs/herman15.pm.log
+Command line: prism dtmcs/herman/herman15.pm -mainlog dtmcs/herman/logs/herman15.pm.log
 
-Parsing model file "./dtmcs/herman/herman15.pm"...
+Parsing model file "dtmcs/herman/herman15.pm"...
 
 Type:        DTMC
 Modules:     process1 process2 process3 process4 process5 process6 process7 process8 process9 process10 process11 process12 process13 process14 process15 
@@ -21,7 +21,7 @@ Computing reachable states...
 
 Reachability (BFS): 1 iterations in 0.00 seconds (average 0.000000, setup 0.00)
 
-Time for model construction: 0.031 seconds.
+Time for model construction: 0.022 seconds.
 
 Type:        DTMC
 States:      32768 (32768 initial)

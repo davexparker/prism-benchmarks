@@ -1,0 +1,32 @@
+PRISM
+=====
+
+Version: 4.6.dev
+Date: Thu Apr 23 12:29:44 BST 2020
+Hostname: kazak
+Memory limits: cudd=1g, java(heap)=1g
+Command line: prism dtmcs/bluetooth/bluetooth.pm -const mrec=1 -mainlog dtmcs/bluetooth/logs/bluetooth.pm.const.mrec=1.log
+
+Parsing model file "dtmcs/bluetooth/bluetooth.pm"...
+
+Type:        DTMC
+Modules:     receiver1 frequency1 sender_frequency replies 
+Variables:   y1 receiver freq1 train1 z1 f1 t1 send freq train c rep rec 
+
+---------------------------------------------------------------------
+
+Building model...
+Model constants: mrec=1
+
+Computing reachable states...
+
+Reachability (BFS): 50 iterations in 0.17 seconds (average 0.003400, setup 0.00)
+
+Time for model construction: 11.972 seconds.
+
+Type:        DTMC
+States:      3411945339 (536870912 initial)
+Transitions: 5035263739
+
+Transition matrix: 14727 nodes (4 terminal), 5035263739 minterms, vars: 52r/52c
+
